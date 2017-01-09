@@ -1,1 +1,1 @@
-worker:goproxy
+worker:beeproxy

@@ -1,5 +1,5 @@
 {
-  "name": "goproxy",
+  "name": "beeproxy",
   "description": "proxy",
   "repository": "https://github.com/bino7/goproxy",
   "keywords": ["proxy", "go"],
