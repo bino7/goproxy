@@ -33,3 +33,4 @@ _testmain.go
 .idea/vcs.xml
 .idea/workspace.xml
 goproxy.iml
+vendor/
