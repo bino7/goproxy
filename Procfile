@@ -1,1 +1,1 @@
-run:goproxy
+web:goproxy
