@@ -9,6 +9,9 @@
     },
     {
       "url": "heroku/go"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-testrunner"
     }
   ]
 }
