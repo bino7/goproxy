@@ -4,7 +4,6 @@ import (
 	"log"
 	"net/http"
 	"github.com/elazarl/goproxy"
-	"os"
 )
 
 func main() {
