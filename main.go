@@ -2,6 +2,7 @@ package main
 
 import (
 	"net/http"
+	"os"
 	"fmt"
 	"log"
 	"github.com/elazarl/goproxy"
@@ -10,7 +11,7 @@ import (
 func main() {
 	proxy := goproxy.NewProxyHttpServer()
 	proxy.Verbose = true
-	port := 8080
+	port := os.Getenv("PORT")
 	addr := fmt.Sprintf(":%s", port)
 	log.Fatal(http.ListenAndServe(addr, proxy))
 }
