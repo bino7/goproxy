@@ -1,0 +1,14 @@
+{
+  "name": "beeproxy",
+  "description": "proxy",
+  "repository": "https://github.com/bino7/goproxy",
+  "keywords": ["proxy", "go"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/kr/heroku-buildpack-go.git"
+    },
+    {
+      "url": "heroku/go"
+    }
+  ]
+}
