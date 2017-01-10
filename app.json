@@ -1,8 +1,11 @@
 {
   "name": "beeproxy",
   "description": "proxy",
-  "repository": "https://github.com/bino7/goproxy",
   "keywords": ["proxy", "go"],
+  "image": "heroku/go:1.7",
+  "mount_dir": "src/github.com/bino7/goproxy",
+  "website": "http://github.com/bino7/goproxy",
+  "repository": "https://github.com/bino7/goproxy",
   "buildpacks": [
     {
       "url": "https://github.com/kr/heroku-buildpack-go.git"
