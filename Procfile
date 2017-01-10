@@ -1,1 +1,1 @@
-web:goproxy
+web:beeporxy
