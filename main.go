@@ -13,5 +13,8 @@ func main() {
 	proxy.Verbose = true
 	port := os.Getenv("PORT")
 	addr := fmt.Sprintf(":%s", port)
+	fmt.Println(addr)
+	log.Println(addr)
 	log.Fatal(http.ListenAndServe(addr, proxy))
 }
+
